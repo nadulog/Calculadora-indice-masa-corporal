@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+header{
+    background-color: transparent;
+    padding: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    /*text-shadow: white 5px 5px;*/
+}
+
+.p1{
+    font-size: 30px;
+}
+
+body{
+background: url(../IMAGEN/klipartz.com\ \(5\).png);
+/*background-size: cover;*/
+background-repeat: no-repeat;
+
+}
+.container{
+    margin-top: 600px;
+    padding: 30px;
+    background-color:rgb(255, 202, 242);
+    border:1px solid black;
+    width: 300px;
+    margin:auto;
+    border-radius: 30px;
+    color:black;
+    font-family: 'Pacifico',cursive;
+    
+    
+}
+
+label{
+    font-size: 25px;
+    
+    
+}
+input{
+    display:block;
+    width: 200px;
+    margin: 10px 0;
+    height: 30px;
+    color: white;
+    border-radius: 7px;
+    background-color: lightgrey;
+
+}
+
+
+button{background-image: linear-gradient(to right, #EECDA3 0%, #EF629F  51%, #EECDA3  100%)
+}
+
+button{
+width: 200px;
+margin: 10px;
+padding: 15px 45px;
+text-align: center;
+text-transform: uppercase;
+transition: 0.5s;
+background-size: 200% auto;
+color: white;            
+box-shadow: 0 0 20px #eee;
+border-radius: 10px;
+display: block;
+}
+
+button:hover {
+background-position: right center;
+color: #fff;
+text-decoration: none;
+}
